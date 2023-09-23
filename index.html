@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rajdhani&display=swap" rel="stylesheet">
+    
+    <title>Mi curriculum vitae</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="fx-row fx-content-space-between fx-align-items-center">
+
+        <a id="logo" class="fx-row" onclick="goHome()">
+            <img src="./img/nav/Home.png" title="Home">
+        </a>
+
+        <nav class="fx-row xs-hide fx-align-items-center">
+
+            <ul class="fx-row fx-content-space-between fx-align-items-center">
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#habilidades">Capacitaciones</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+
+        </nav>
+
+        <a id="contacto" href="#footer" class="fx-row">
+            <img src="./img/nav/Help-Logo.png" title="Contactame">
+        </a>
+
+    </header>
+
+    <main>
+        <Section id="home" class="fx-column fx-content-center fx-align-items-center"><!--Quien soy-->
+            <div class="home-banner fx-column fx-content-center fx-align-items-center">
+                <h3>Bienvenido a mi curriculum vitae</h3>
+                <p>Aqui esta un resumen basico sobre mi y mis capacitaciones.</p>
+                <img class="fx-content-center fx-align-items-center" src="./img/personal/fotodeperfil.jpg">
+            </div>
+        </Section>
+
+        <!--Informacion basica mia.-->
+        <section id="about">
+            <h1>| Resumen basico |</h1>
+            <div class="about-container fx-row fx-xs-column fx-content-space-between fx-align-items-center">
+                <div class="about-info ">
+                    <h3>Soy estudiante de la carrera de Ingeniera en sistema de informacion. Actualmente ando cursando
+                        mi 9vo semestre y llevando a cabo mi servicio social. Aunque estoy viendo varias opciones para
+                        poder llevar a cabo una maestria o incluso un semestre en el extranjero para expandir mis oportunidades
+                        en un futuro laboral.  
+                    </h3>
+                    <br>
+                    <p>Me gusta el diseño grafico, soy aficionado a los mechas, me gusta leer en mis ratos libres y practicar el uso de
+                        photoshop.</p>
+                    <br>
+                </div>
+                <br>
+            </div>
+        </section>
+
+        <!--Capacitaciones mias al igual que ciertos intereses.-->
+        <section id="habilidades">
+            <h1>| Mis actuales capacitaciones |</h1>
+            <div class="card-container fx-row fx-xs-column fx-content-center">
+
+                <div class="card">
+                    <h3>Tengo experiencia en varios lenguajes de programacion</h3>
+                    <ul>
+                        <li>Java
+                            <i class="fa-brands fa-java"></i>
+                        </li>
+                        <li>Python
+                            <i class="fa-brands fa-python"></i>
+                        </li>
+                        <li>Php
+                            <i class="fa-brands fa-php"></i>
+                        </li>
+                        <li>Javascript
+                            <i class="fa-brands fa-js"></i>
+                        </li>
+                        <li>HTML
+                            <i class="fa-brands fa-html5"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Curso y conozco varios idiomas que me ayudan a expandir:</h3>
+                    <ul>
+                        <li>Ingles: Cursado desde la primaria
+                            <p>Nivel: C2</p>
+                        </li>
+                        <li>Aleman: Cursado desde 9no semestre
+                            <p>Nivel: B1</p>
+                        </li>
+                        <li>Frances: Cursado desde 7to semestre
+                            <p>Nivel: B1</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos"><!--Que hago ahorita-->
+            <h1>| He trabajado en los siguientes proyectos |</h1>
+            <div class="proyectos-container">
+
+                <div class="proyectos-box">
+                    <img src="./img/proyectos/cursoCSTI.png" alt="cursoCSTI">
+                    <div class="proyectos-content">
+                        <h2>Configuracion y administracion de servidores con Windows</h2>
+                        <p>Participe en un curso brindado por la UNISON donde vimos como manejar servidores
+                            en Windows mediante VirtualBox y como podemos usarlo para establecer computadoras 
+                            con sus respectivos funciones y restrincciones.</p>
+                    </div>
+                </div>
+
+                <div class="proyectos-box">
+                    <img src="./img/proyectos/proyectoPersonal.jpg" alt="proyectoPersonal">
+                    <div class="proyectos-content">
+                        <h2>Proyecto de liga de futbol</h2>
+                        <p>En mis ratos libres soy encargado de ir desarrollando una pagina de torneos de futbol para
+                             la liga sabatina educativa. Donde maneje el flujo de jugadores que participaban en torneos 
+                             y mostraba resultados de los partidos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="fx-column fx-content-center fx-align-items-center">
+
+        <div class="contacto-container">
+
+            <h2>Contacto</h2>
+
+            <form id="contacto-form" class="fx-column">
+
+                <input type="text" id="nombre" placeholder="Nombre" required>
+
+                <input type="email" id="email" placeholder="Email" required>
+
+                <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+
+                <button type="submit" class="button-action">Enviar</button>
+
+            </form>
+
+        </div>
+
+        <div class="redes-sociales-container fx-row">
+            <a href="https://wa.me//+526621544496" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/joseluisteransoto/" target="_blank"><i class="fa-brands fa-linkedin"></i>
+            <a href="https://github.com/Teran894" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <p>Proyecto #1 ISI &copy; 2023</p>
+
+    </footer>
+</body>
+
+</html>
